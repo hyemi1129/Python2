@@ -31,3 +31,26 @@ my_str = url.replace("http://", "") # 규칙 1
 my_str = my_str[:my_str.index(".")] # 규칙 2
 password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!" 
 print("{0}의 비밀번호는 {1}입니다.".format(url, password))
+
+
+# 추첨자 1명 치킨, 3명 커피
+
+# 20명 ID - 1~20
+# 무작위, 중복 불가
+
+from random import *
+users = range(1, 21) # 1 ~ 20까지
+# print(type(users))
+users = list(users)
+# print(type(users))
+
+print(users)
+shuffle(users)
+print(users)
+
+winners = sample(users, 4) # 4명 중 1명 치킨, 3명 커피
+
+print("-- 당첨자 발표 --")
+print("치킨 당첨자 : {0}".format(winners[0]))
+print("커피 당첨자 : {0}".format(winners[1:]))
+print("-- 축하드립니다 --")
