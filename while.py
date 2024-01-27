@@ -5,3 +5,7 @@ a = int(input())
 while a == 1:
     print("hi")
     break
+
+
+# while 조건:
+# 내용
