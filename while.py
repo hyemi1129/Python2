@@ -7,3 +7,7 @@ while index >= 1:
     index -= 1
     if index == 0:
         print("커피는 폐기처분되었습니다.")
+
+
+while True: # 무한 반복
+    print("hello")
