@@ -1,4 +1,4 @@
-# 반복문
+""" # 반복문
 
 customer = "토르"
 index = 5
@@ -11,3 +11,9 @@ while index >= 1:
 
 while True: # 무한 반복
     print("hello")
+
+ """
+
+a = int(input())
+while a >= 1:
+    print(a)
