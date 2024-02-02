@@ -14,6 +14,12 @@ while True: # 무한 반복
 
  """
 
-a = int(input())
-while a >= 1:
-    print(a)
+list_name = ["감자", "고구마"]
+
+while True:
+    name = input("이름 입력 >> ")
+    if name in list_name:
+        print(f"{name} 멋지다!")
+        break
+    else:
+        print(f"{name} 최고!")
