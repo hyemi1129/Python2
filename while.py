@@ -14,7 +14,7 @@ while True: # 무한 반복
 
  """
 
-list_name = ["감자", "고구마"]
+list_name = ["감자"]
 
 while True:
     name = input("이름 입력 >> ")
