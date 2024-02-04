@@ -14,12 +14,21 @@ while True: # 무한 반복
 
  """
 
-list_name = ["감자"]
+""" list_name = ["감자"]
 
 while True:
     name = input("이름 입력 >> ")
     if name in list_name:
-        print(f"{name} 멋지다!")
+        print(f"{name} 멋지다!")f
         break
     else:
-        print(f"{name} 최고!")
+        print(f"{name} 최고!") """
+
+a = 2
+
+while a < 10:
+    b = 1
+    while b < 10:
+        print("%d X %d = %d" %(a, b, a*b))
+        b = b + 1
+    a = a + 1
