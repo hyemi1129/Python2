@@ -24,11 +24,15 @@ while True:
     else:
         print(f"{name} 최고!") """
 
-a = 2
+""" a = 2
 
 while a < 10:
     b = 1
     while b < 10:
         print("%d X %d = %d" %(a, b, a*b))
         b = b + 1
-    a = a + 1
+    a = a + 1 """
+
+test_list = ['one', 'two', 'three'] 
+for i in test_list: 
+    print(i)

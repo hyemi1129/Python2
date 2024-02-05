@@ -13,10 +13,14 @@ for i in range(2, 10):
     for j in range(1, 10):
         print(i, "x", j, "=", i*j) """
 
-for wating in range (1, 6):
+""" for wating in range (1, 6):
     print("대기번호 : {0}".format(wating))
 
 star = ["처녀", "사수", "물병"]
 
 for i in star:
-    print("{0}, 커피 준비 다 됨".format(i))
+    print("{0}, 커피 준비 다 됨".format(i)) """
+
+test_list = ['one', 'two', 'three'] 
+for i in test_list: 
+    print(i)
